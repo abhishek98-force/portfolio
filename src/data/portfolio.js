@@ -1,7 +1,7 @@
 export default [
    {
       title: 'Native Cloud Computing application',
-      imgUrl: '/assets/ai-nerf-gun.jpg',
+      imgUrl: '/assets/cloud-pic.jpg',
       stack: ['NodeJS', 'Packer', 'Google Cloud', 'Terraform'],
       link: 'https://youtu.be/A8eegxL82PI',
    },
