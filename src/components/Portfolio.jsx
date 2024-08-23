@@ -4,25 +4,26 @@ import PortfolioItem from './PortfolioItem';
 import Title from './Title';
 
 function Portfolio() {
-   return (
-     <>
+  return (
+    <>
       <div className="mt-15">
-         <Title>Portfolio</Title>
+        <Title>Portfolio</Title>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center mb-20">
-         <div className="grid grid-cols-1 md:grid-cols-2">
-            {portfolio.map(project => (
-               <PortfolioItem 
-                  imgUrl={project.imgUrl}
-                  title={project.title}
-                  stack={project.stack}
-                  link={project.link}
-               />
-            ))}
-         </div>
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          {portfolio.map((project) => (
+            <PortfolioItem
+              imgUrl={project.imgUrl}
+              title={project.title}
+              stack={project.stack}
+              link={project.link}
+              isVideo={project.isVideo}
+            />
+          ))}
+        </div>
       </div>
-      </>  
-   )
+    </>
+  );
 }
 
 export default Portfolio;
