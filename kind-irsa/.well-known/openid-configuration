@@ -1,6 +1,6 @@
 {
-  "issuer": "https://kubernetes.default.svc.cluster.local",
-  "jwks_uri": "https://172.25.0.4:6443/openid/v1/jwks",
+  "issuer": "https://abhishek98-force.github.io/portfolio/kind-irsa",
+  "jwks_uri": "https://abhishek98-force.github.io/portfolio/kind-irsa/openid/v1/jwks",
   "response_types_supported": [
     "id_token"
   ],
